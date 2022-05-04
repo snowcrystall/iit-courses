@@ -1,0 +1,42 @@
+0. Load data from stock.csv;
+
+0.1 remove stock.csv ,run the program;
+0.2 change the lins in stock.csv, make it error format, run the program;
+0.3 use format good stock.csv, run the program;
+
+1. select option 1.Add  a new goods;
+
+1.1  input the fields , than select Save;
+1.3  input the fields , than select Cancel;
+1.4  input same fields that alreay in the stock , than Save;
+
+2. select option 2. Sell  goods;
+
+2.1  add some goods into cart, than checkout;
+2.2  add some goods into cart, than back to main menu, than go into cart again;
+2.3  add some goods into cart, than back to main menu, than modify the goods, than go into cart again;
+2.4  add some goods into cart, than back to main menu, than modify the name of goods, than go into cart again;
+2.5  add some goods into cart, than back to main menu, than delete the goods, than go into cart again;
+
+3. select option 3. Remove goods;
+
+3.1 remove goods, than list the stock list ;
+
+4. select option 4. Search for  goods (by name);
+
+4.1 search a name;
+
+5. select option 5. Modify a goods;
+
+5.1 modify a Shelved goods;
+5.2 modify a Age Restricted Item;
+5.3 modify a Produce Item;
+5.4 modify the name of the goods ,than check the stock list order, it should be sorted by name;
+
+6. select option 6. List all goods;
+
+7. select option 7. Save the current stock to a file;
+
+8. select option 8. Exit and save;
+
+9. redo all before actions, input some error or invalid string ;

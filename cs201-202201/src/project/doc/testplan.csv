@@ -1,0 +1,21 @@
+test features, Test cases, expect 
+load data when start problem ; The stock.csv file has the correct format and correct data ; problem load the file data and run, select "List all goods" option will see the goods list as same as initial file ;
+load data when start problem ; The stock.csv file has the correct format and incorrect data ; problem load the file data and run, select "List all goods" option will see the correct goods list, the incorrect goods data in file will be ingore;  ;
+load data when start problem ; The stock.csv file has the incorrect format; problem will run with empty data,display the infomation to user;
+load data when start problem ; The file does not exist or have read error; problem will run with empty data,display the infomation to user;
+exceptions ; input other characters such as number , letter Outside the scope of the option, and for the sub menu ; problem will Prompt for input again ;
+1. Add  a new goods ; input a exist goods name ; problem display the goods info,than Prompt the user input the add number for the goods, problem will handle all incorrect input and correct update the store;
+1. Add  a new goods ; input a new goods name ;  problem Prompt the user input the goods info,problem will handle all incorrect input and correct update the store;
+2. Sell  goods; input some name of goods than cancel; the store data are correct ;
+2. Sell  goods; input some name of goods than check out;the store data are correct;
+2. Sell  goods; input incorrect name of goods; display the error input infomation and continue Prompt input ;
+3. Remove goods; input name of goods ; the store data are correct ;
+3. Remove goods; input incorrect name of goods; display the error input infomation  ;
+4. Search for a goods (by name);input name of goods ; display the goods info;
+4. Search for a goods (by name);input incorrect name of goods; display the error input infomation ;
+5. Modify a goods;input name of goods ;Prompt to input the goods info and update the store correct;
+5. Modify a goods;input incorrect name of goods;display the error input infomation;
+6. List all goods; ; display the goods list;
+7. Save the current stock;;save data correct to stock.csv;
+8. Exit; select save yes; save data correct to stock.csv and exit;
+8. Exit; select save no; dont save data and exit;

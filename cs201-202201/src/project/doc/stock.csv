@@ -1,0 +1,15 @@
+Produce,banana,0.62,8,04/29/2022
+Produce,carrot,0.62,6,04/29/2022
+Produce,apple,0.50,4,04/29/2022
+Produce,avocado,1.50,4,04/29/2022
+Produce,bread,3.50,4,04/29/2022
+Produce,bag of chips,0.99,4,04/29/2022
+Shelved,pencil,1.29,3
+Shelved,pen,1.79,4
+Shelved,pad of paper,3.00,3
+Produce,bottle of water,1.00,4,04/29/2023
+Produce,bottle of juice,1.19,4,04/29/2022
+Produce,wine,12.99,5,04/29/2023
+AgeRestricted,wine,12.99,2,21
+AgeRestricted,beer,10.99,3,21
+AgeRestricted,cold meds,24.99,2,18
